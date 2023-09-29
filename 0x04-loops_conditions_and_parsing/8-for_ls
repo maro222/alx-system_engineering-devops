@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+directory_content=$(ls .)
+for content in ${directory_content}
+do
+	echo ${content}
+done
