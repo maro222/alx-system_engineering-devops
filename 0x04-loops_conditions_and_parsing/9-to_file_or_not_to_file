@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # alx school file checker
 
-file="scool"
+file="school"
 
 if [[ -a ${file} ]] ; then
 	echo "school file exists"
