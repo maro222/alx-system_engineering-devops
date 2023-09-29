@@ -2,7 +2,7 @@
 # This script is displaying "Best School" 10 times
 
 counter=1
-until [[ ${counter} -ge 10 ]]
+until [[ ${counter} -gt 10 ]]
 do
     echo "Best School"
     ((counter++))
