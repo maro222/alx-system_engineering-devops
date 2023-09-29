@@ -4,5 +4,5 @@
 directory_content=$(ls .)
 for content in ${directory_content}
 do
-	echo ${content} | cut -d '-' -f 2
+	echo "${content}" | cut -d '-' -f 2
 done
